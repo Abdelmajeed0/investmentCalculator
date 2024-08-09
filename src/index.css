@@ -113,5 +113,6 @@ body {
 @media (max-width: 768px) {
   #result {
     font-size: 0.9rem;
+    text-align: left;
   }
 }
