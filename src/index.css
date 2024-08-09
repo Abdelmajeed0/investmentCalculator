@@ -116,3 +116,33 @@ body {
     text-align: left;
   }
 }
+
+@media (max-width: 480px) {
+  #result {
+    font-size: 0.7rem;
+    text-align: left;
+  }
+}
+
+@media (max-width: 400px) {
+  #result {
+    font-size: 0.5rem;
+    text-align: left;
+  }
+  #user-input {
+    padding: 0.5rem; /* Less padding on very small screens */
+  }
+
+  .input-group {
+    gap: 0.25rem; /* Even smaller gap */
+  }
+
+  .input-group label {
+    font-size: 0.875rem; /* Slightly smaller font size for labels */
+  }
+
+  .input-group input {
+    font-size: 0.875rem; /* Slightly smaller font size for inputs */
+    padding: 0.4rem; /* Adjust padding to fit better */
+  }
+}
