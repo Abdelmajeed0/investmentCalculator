@@ -4,10 +4,10 @@ import InputGroup from "./components/InputGroup";
 import Result from "./components/Result";
 function App() {
   const [input, setInput] = useState({
-    initialInvestment: 10000,
-    annualInvestment: 1200,
-    expectedReturn: 6,
-    duration: 10,
+    initialInvestment: "",
+    annualInvestment: "",
+    expectedReturn: "",
+    duration: "",
   });
   const isValidInput = input.duration >= 1 && input.initialInvestment > 0;
 
